@@ -24,7 +24,7 @@ h1 {
 .accordeon {
     display: flex;
     justify-content: center;
-    min-height: 80vh;
+    height: 80vh;
 }
 
 .accordion {
@@ -41,7 +41,7 @@ h1 {
     padding: 10px;
     background: rgb(179, 252, 216);
     border: solid rgba(189, 195, 199, 0.7) ;
-    border-radius: 60px;
+    border-radius: 30px;
     border-width: 1px;
     cursor: pointer;
     font-size: 2em;
@@ -70,6 +70,13 @@ h1 {
     overflow-y: auto ;
     font-size: 1.7em;
 
+    left: 5%;
+    width: 90%;
+
+    transform: scaleY(0);    
+    transform-origin: top;
+    transition: transform 0.5s ease;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -80,6 +87,7 @@ h1 {
     height: auto;
     width: 90%;
     left: 5%;
+    transform: scaleY(1);
 
     border: solid rgba(189, 195, 199, 0.7) ;
     border-width: 1px;
