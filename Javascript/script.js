@@ -15,8 +15,6 @@ btn.addEventListener('click', function(){
     accordionItemHeaders.forEach(accordionItemHeader => {
     accordionItemHeader.addEventListener("click", event => {
     
-    // Uncomment in case you only want to allow for the display of only one collapsed item at a time!
-    
      const currentlyActiveAccordionItemHeader = document.querySelector(".accordion .contentBox.active");
     if(currentlyActiveAccordionItemHeader && currentlyActiveAccordionItemHeader!==accordionItemHeader) {
        currentlyActiveAccordionItemHeader.classList.toggle("active");
