@@ -29,6 +29,7 @@ h1 {
     display: flex;
     justify-content: center;
     height: 80vh;
+    
 }
 
 .accordion {
@@ -95,6 +96,7 @@ h1 {
 
     border: solid rgba(189, 195, 199, 0.7) ;
     border-width: 1px;
+    
 }
 
 .accordion .contentBox .content .produit {
