@@ -3,7 +3,9 @@ const accordion = document.getElementsByClassName('contentBox');
 
 // Bouton affiche tout les menus
 btn.addEventListener('click', function(){
-    
+    for ( i = 0 ; i < accordion.length ; i++ ) {
+        accordion.classList.add('active')
+    }
     
 })
 
