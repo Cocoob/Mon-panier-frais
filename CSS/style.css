@@ -21,6 +21,10 @@ h1 {
     width: 100%;
 }
 
+.button {
+    font-size: 2em;
+}
+
 .accordeon {
     display: flex;
     justify-content: center;
